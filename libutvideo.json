@@ -1,0 +1,16 @@
+{
+    "name": "libutvideo",
+    "description": "Ut Video lossless decoder",
+    "filters":["utvideodec"],
+    "help": "This filter decodes Ut Video, the lossless intra codec found in AVI files.",
+    "support": [
+        "video"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libutvideo.accessor",
+    "filter_source":{
+        "utvideodec" : "dec_utvideo.c"
+    },
+    "extension":{
+    },
+    "licence_required":false
+}
