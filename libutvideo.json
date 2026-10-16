@@ -1,5 +1,6 @@
 {
     "name": "libutvideo",
+    "version": "1.0.1",
     "description": "Ut Video lossless decoder",
     "filters":["utvideodec"],
     "help": "This filter decodes Ut Video, the lossless intra codec found in AVI files.",
