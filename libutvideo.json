@@ -1,20 +1,36 @@
 {
     "name": "libutvideo",
-    "Format": ["ULY0", "ULY2", "ULY4", "ULRG", "ULH0", "ULH2", "ULH4"],
+    "Format": [
+        "ULY0",
+        "ULY2",
+        "ULY4",
+        "ULRG",
+        "ULH0",
+        "ULH2",
+        "ULH4"
+    ],
     "version": "1.0.3",
     "description": "Ut Video lossless decoder",
-    "filters":["utvideodec"],
+    "filters": [
+        "utvideodec"
+    ],
     "help": "This filter decodes Ut Video, the lossless intra codec found in AVI files.",
     "support": [
         "video"
     ],
-    "sources":"https://bevara.ddns.net/sources/libutvideo.accessor",
-    "filter_source":{
-        "utvideodec" : "dec_utvideo.c"
+    "sources": "https://bevara.ddns.net/sources/libutvideo.accessor",
+    "filter_source": {
+        "utvideodec": "dec_utvideo.c"
     },
-    "extension":{
-    },
-    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "extension": {},
+    "using": [
+        "mm_solver_minimal_1.0.1",
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "runtime": {
         "utvideodec": {
             "outputs": [
